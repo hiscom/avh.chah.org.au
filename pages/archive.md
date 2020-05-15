@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: category-page
 type: archives
 title: Blog posts by year
-permalink: /archive
+permalink: /archive/
 excluded_in_search: true
 ---
 
