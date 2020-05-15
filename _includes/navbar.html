@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <!--li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li-->
+        {% for item in site.data.navbar %}
+        {% if item.link %}
+        <li class="nav-item">
+          <a class="nav-link" href="{{ item.link }}">{{ item.name }}</a>
+        </li>
+        {% elsif item.dropdown %}
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {{ item.name }}
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            {% for sub in item.dropdown %}
+            <a class="dropdown-item" href="{{ sub.link }}">{{ sub.name }}</a>
+            {% endfor %}
+          </div>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+      <ul class="navbar-nav">
+        <li><a class="contact-us-link btn" href="https://avh.chah.org.au/index.php/help/contact-us/">Contact us</a></li>
+        <li><a class="facebook-link btn btn-default" href="https://www.facebook.com/AustVirtHerb"><i class="fab fa-facebook-square"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>

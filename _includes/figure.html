@@ -1,0 +1,18 @@
+{% assign default_alt = include.caption | strip_html | default: '' %}
+
+<figure>
+  {%if include.href %}
+  <a href="{{ include.href | relative_url }}">
+  {% endif %}
+  <img src="{{ include.src | relative_url }}" class="img-fluid"
+     alt="{{ include.alt | default: default_alt }}" />
+  {%if include.href %}
+  </a>
+  {% endif %}
+  {% if include.caption %}
+  <figcaption>{{ include.caption }}</figcaption>
+  {% endif %}
+  {%if include.href %}
+  <a href="{{ include.href | relative_url }}"></a>
+  {% endif %}
+</figure>

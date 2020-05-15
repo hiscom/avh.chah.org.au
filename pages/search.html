@@ -1,0 +1,24 @@
+---
+title: "Search result for:"
+layout: category-page
+permalink: /search/
+not_editable: true
+excluded_in_search: true
+---
+
+<div id="search-results"></div>
+
+<script>
+	window.docs = [
+		{% for post in site.html_pages %}
+				{% unless post.excluded_in_search %}
+        {% include search/document.html %}
+				{% endunless %}
+		{% endfor %}
+		{% for post in site.posts %}
+				{% unless post.excluded_in_search %}
+        {% include search/document.html %}
+				{% endunless %}
+		{% endfor %}
+	];
+</script>

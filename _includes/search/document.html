@@ -1,0 +1,10 @@
+{% if added %},{% endif %}
+{% assign added = false %}
+{
+  "id": "{{ post.url | relative_url }}",
+  "title": "{{ post.title | xml_escape }}",
+  "excerpt": "{{ post.content | replace: "#", "" | strip_html | strip_newlines | truncatewords: 55, '...' | xml_escape }}",
+  "date": "{{ post.date | date: '%B %d, %Y' }}",
+  "body": "{{ post.content | strip_html | strip_newlines | slugify: 'ascii' | replace: '-',' ' }}"
+}
+{% assign added = true %}

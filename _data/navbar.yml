@@ -1,0 +1,16 @@
+- name: <i class="fas fa-home"></i>   
+  link: /
+- name: Search
+  link: https://avh.ala.org.au/search
+- name: About
+  link: /about
+- name: Help
+  dropdown:
+    - name: "Using AVH"
+      link: /using-avh
+    - name: Data
+      link: /data
+    - name: Fields
+      link: https://avh.ala.org.au/fields
+- name: News
+  link: /news

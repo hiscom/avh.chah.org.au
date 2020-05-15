@@ -1,0 +1,47 @@
+div#carouseel-avh-home {
+  margin-top: 20px;
+  background-color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 35px;
+
+  .carousel-control-icon {
+    background-image: none;
+    font-size: 140%;
+    display: inline-block;
+
+    &.carousel-control-prev-icon {
+      padding-right: 75px;
+    }
+
+    &.carousel-control-next-icon {
+      padding-left: 50px;
+    }
+  }
+  
+  .carousel-caption {
+    background-color: #666;
+    opacity: 0.8;
+    left: 6%;
+    right: 6%;
+
+    a {
+      color: #fff;
+    }
+  }
+
+  .carousel-indicators { 
+    li {
+      border-color: #4c9900;
+      background-color: #fff;
+    }
+
+    .active {
+      background-color: #4c9900;
+    }
+  }
+
+  .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 90%
+  }
+}
