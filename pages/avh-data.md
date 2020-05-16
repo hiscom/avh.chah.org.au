@@ -2,8 +2,6 @@
 title: Data
 layout: page_toc
 permalink: "/data/"
-excerpt: >-
-  <p>The Australasian Virtual Herbarium (AVH) is the contribution of Australian and New Zealand herbaria to the Atlas of Living Australia (ALA). Currently, data is delivered to AVH by 14 Australian and nine New Zealand herbaria.</p>
 ---
 
 The Australasian Virtual Herbarium (AVH) is the contribution of Australian and New Zealand herbaria to the Atlas of Living Australia (ALA). Currently, data is delivered to AVH by 14 Australian and nine New Zealand herbaria.

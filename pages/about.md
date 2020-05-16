@@ -2,8 +2,6 @@
 layout: page_toc
 title: About AVH
 permalink: /about/
-excerpt: >-
-  <p>The Australasian Virtual Herbarium (AVH) is an online resource that provides dynamic access to the wealth of plant specimen data held by Australian and New Zealand herbaria. The AVH is a collaborative project developed under the auspices of the Council of Heads of Australasian Herbaria (CHAH).</p>
 ---
 
 The Australasian Virtual Herbarium (AVH) is an online resource that provides dynamic access to the wealth of plant specimen data held by Australian and New Zealand herbaria. The AVH is a collaborative project developed under the auspices of the Council of Heads of Australasian Herbaria (CHAH).
