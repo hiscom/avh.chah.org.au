@@ -6,9 +6,9 @@ permalink: "/data/"
 
 The Australasian Virtual Herbarium (AVH) is the contribution of Australian and New Zealand herbaria to the Atlas of Living Australia (ALA). Currently, data is delivered to AVH by 14 Australian and nine New Zealand herbaria.
 
-Herbarium specimen data is catalogued in accordance with the data entry standards and protocols of each herbarium. Once aggregated in the ALA BioCache, the data is standardised and a range of quality checks are applied to enhance data retrieval and analysis. The standardisation and data processing applied in the BioCache is described below. The unprocessed data provided by the herbaria is always available; an overview of the provided versus processed data is available for each record via the [Record detail](/using-avh/#Record_detail) page.
+Herbarium specimen data is catalogued in accordance with the data entry standards and protocols of each herbarium. Once aggregated in the ALA BioCache, the data is standardised and a range of quality checks are applied to enhance data retrieval and analysis. The standardisation and data processing applied in the BioCache is described below. The unprocessed data provided by the herbaria is always available; an overview of the provided versus processed data is available for each record via the [Record detail](/using-avh/#record-detail) page.
 
-The AVH contains records of the holdings of Australian and New Zealand herbaria, including specimens collected outside those countries. It also contains records of cultivated plants and introduced occurrences and while we have the [Establishment means](#establishment_means) field to indicate whether a plant is cultivated or not native, this has not always been used. AVH records may also just be wrong. A record in the AVH of a species from a certain location only means that there is a specimen with this species name from the given location, not necessarily that the species with that name naturally occurs at that location. The major asset of the AVH is that all records are based on preserved specimens, so they can, to a large extent, be verified. It is up to the user to decide whether or not verification is warranted. By itself the AVH data is not more reliable than data you get from anywhere else.
+The AVH contains records of the holdings of Australian and New Zealand herbaria, including specimens collected outside those countries. It also contains records of cultivated plants and introduced occurrences and while we have the [Establishment means](#establishment-means) field to indicate whether a plant is cultivated or not native, this has not always been used. AVH records may also just be wrong. A record in the AVH of a species from a certain location only means that there is a specimen with this species name from the given location, not necessarily that the species with that name naturally occurs at that location. The major asset of the AVH is that all records are based on preserved specimens, so they can, to a large extent, be verified. It is up to the user to decide whether or not verification is warranted. By itself the AVH data is not more reliable than data you get from anywhere else.
 
 {% include figure.html src="/media/data/avh_data_heatmap21-1024x683.jpg"
     caption="Collection density map showing world coverage of AVH records; grid cells are 3 × 3 square degrees and colours indicate number of collections per cell, ranging from yellow: 0–100 collections, to the brightest red: more than 500 collections. – From: Atlas of Living Australia Spatial Portal, &lt;<a href=\"https://spatial.ala.org.au\">https://spatial.ala.org.au</a>&gt;, accessed 18 April 2014." %}
@@ -81,7 +81,7 @@ The catalogue number is an identifier for the physical specimen. In the AVH, cat
 
 ### ALA record ID
 
-The record id is a unique identifier applied to the specimen record in the ALA BioCache. The ALA record ID is listed in the [CSV downloads](/using-avh#Download) and in the URL of the [Record detail](/using-avh#Record_detail) page. You can use the ALA record ID to find the most up-to-date data for the specimen record by typing ‘/\[record ID\]’ in the navigation bar of your browser.
+The record id is a unique identifier applied to the specimen record in the ALA BioCache. The ALA record ID is listed in the [CSV downloads](/using-avh#download) and in the URL of the [Record detail](/using-avh#record-detail) page. You can use the ALA record ID to find the most up-to-date data for the specimen record by typing ‘/\[record ID\]’ in the navigation bar of your browser.
 
 ### Basis of record
 
@@ -94,7 +94,7 @@ The preparation type of the specimen (‘Sheet’, ‘Packet’ etc.).
 
 ### Date last updated
 
-The date the record was last updated. On the [Record detail](/using-avh#Record_detail) pages this is shown as Date loaded and will appear under the location map. The Date last processed indicates when the record was last processed within the ALA BioCache. This may happen, for instance, when there is a change in the backbone taxonomy or the Sensitive Data Service, or when new environmental layers are loaded.
+The date the record was last updated. On the [Record detail](/using-avh#record-detail) pages this is shown as Date loaded and will appear under the location map. The Date last processed indicates when the record was last processed within the ALA BioCache. This may happen, for instance, when there is a change in the backbone taxonomy or the Sensitive Data Service, or when new environmental layers are loaded.
 
 ## Collecting event
 
@@ -118,11 +118,11 @@ A small proportion of records in the AVH are undated. These will predominantly b
 
 #### Querying by date
 
-The Collecting date term in the [Advanced search](/using-avh#Advanced_search) form allows you to query for a range of collecting dates. If you enter just a start date or an end date, your results will include records of specimens collected since or up to that date respectively. To query for a particular collecting date, enter the same date in both fields. Because of problems associated with querying incomplete dates, the results for a search that includes a collecting date term will only return records with complete collecting dates.
+The Collecting date term in the [Advanced search](/using-avh#advanced-search) form allows you to query for a range of collecting dates. If you enter just a start date or an end date, your results will include records of specimens collected since or up to that date respectively. To query for a particular collecting date, enter the same date in both fields. Because of problems associated with querying incomplete dates, the results for a search that includes a collecting date term will only return records with complete collecting dates.
 
 #### Date facets
 
-There are Year, Month and Decade facets on the [Results](/using-avh#Results) page that allow you to filter your results for records collected in a particular year, month or decade. Note that the Decade facet and chart only include records with complete collecting dates; records with only a month and a year, or just a year, will not be counted.
+There are Year, Month and Decade facets on the [Results](/using-avh#results) page that allow you to filter your results for records collected in a particular year, month or decade. Note that the Decade facet and chart only include records with complete collecting dates; records with only a month and a year, or just a year, will not be counted.
 
 ### Locality
 
@@ -161,7 +161,7 @@ The ALA applies taxon name resolution to incoming data. The taxon name with a re
 
 If a matched name is in one of the authoritative national checklists that are part of the ALA name list, such as the [Australian Plant Census](https://biodiversity.org.au/nsl/services/APC) (APC), and if the matched name is considered a synonym, the processed name will be the accepted name from the checklist. The processed taxon name is called ‘Taxon name (processed)’ in the AVH.
 
-The Identified to rank is the rank of the processed taxon name. This may be the same rank as the rank of the provided name, or a higher rank. If the rank of the processed name is different from that of the provided name, and the name resolver can work out the rank of the provided name, the rank of the provided name will be given on the [Record detail](/using-avh#Record_detail) page as well.
+The Identified to rank is the rank of the processed taxon name. This may be the same rank as the rank of the provided name, or a higher rank. If the rank of the processed name is different from that of the provided name, and the name resolver can work out the rank of the provided name, the rank of the provided name will be given on the [Record detail](/using-avh#record-detail) page as well.
 
 The Name match metric describes how the provided name was matched to a name in the ALA name list. If the parsed name was matched, the Name match metric will be ‘Canonical name match’. ‘Higher taxa match’ means that the name itself could not be matched, but the name of a higher taxon – genus or family – could. ‘No match’ means that neither the provided name nor the name of a higher taxon could be matched to a name in the ALA name list.
 
@@ -171,7 +171,7 @@ The Common name (processed) is the common name recorded in the ALA name list. Co
 
 ### Classification
 
-There are facets for taxonomic groups of all mandatory ranks (Kingdom, Phylum, Class, Order, Family, Genus, Species) and for Infraspecific taxon. These taxonomic groups are also given on the [Record detail](/using-avh#Record_detail) page and in the [downloads](/using-avh#Download). If there was no match for a provided name, the names of the taxonomic groups provided with the specimen record will be displayed.
+There are facets for taxonomic groups of all mandatory ranks (Kingdom, Phylum, Class, Order, Family, Genus, Species) and for Infraspecific taxon. These taxonomic groups are also given on the [Record detail](/using-avh#record-detail) page and in the [downloads](/using-avh#download). If there was no match for a provided name, the names of the taxonomic groups provided with the specimen record will be displayed.
 
 ### Botanical group
 
@@ -195,7 +195,7 @@ The role the determiner has played in the determination, e.g. determined the spe
 
 ### Identified date
 
-The Identified date term in the [Advanced search](/using-avh#Advanced_search) allows you to query for a range of determination dates. If you fill in just a start date or an end date, your results will include records of specimens determined since or up to that date respectively. In order to query for a particular determination date, enter the same date in both fields. Because of problems associated with querying incomplete dates, a result for a search that includes a determination date term will only include records with complete determination dates. It is common practice to give only a month and year on determination slips, so be aware that a large part of the determinations will be missed when querying by determination date.
+The Identified date term in the [Advanced search](/using-avh#advanced-search) allows you to query for a range of determination dates. If you fill in just a start date or an end date, your results will include records of specimens determined since or up to that date respectively. In order to query for a particular determination date, enter the same date in both fields. Because of problems associated with querying incomplete dates, a result for a search that includes a determination date term will only include records with complete determination dates. It is common practice to give only a month and year on determination slips, so be aware that a large part of the determinations will be missed when querying by determination date.
 
 ### Determination notes
 
@@ -207,7 +207,7 @@ The type status of any type specimens in the results. Note that, if you searched
 
 ## Geography
 
-The values in many of the following geography fields have been inferred from the latitude and longitude provided with the specimen records. In some cases, the geography values stored in the herbarium record may differ from the inferred values due to geocoding errors. If you suspect that there is an error with a record, you can flag an issue on the [Record detail](/using-avh#Record_detail) page.
+The values in many of the following geography fields have been inferred from the latitude and longitude provided with the specimen records. In some cases, the geography values stored in the herbarium record may differ from the inferred values due to geocoding errors. If you suspect that there is an error with a record, you can flag an issue on the [Record detail](/using-avh#record-detail) page.
 
 ### Country
 
@@ -223,7 +223,7 @@ The local government area in which the specimen was collected, based on the lati
 
 ### Latitude and longitude
 
-The latitude and longitude of the collecting locality. If correctable errors are detected, for example the latitude or longitude is in the wrong hemisphere or the latitude and longitude are transposed, the values are corrected and the unprocessed latitude and longitude are given in the Latitude (provided) and Longitude (provided)fields in the [Record detail](/using-avh#Record_detail) page and in downloaded results.
+The latitude and longitude of the collecting locality. If correctable errors are detected, for example the latitude or longitude is in the wrong hemisphere or the latitude and longitude are transposed, the values are corrected and the unprocessed latitude and longitude are given in the Latitude (provided) and Longitude (provided)fields in the [Record detail](/using-avh#record-detail) page and in downloaded results.
 
 ### Geodetic datum
 
@@ -279,7 +279,7 @@ The [New Zealand region](https://en.wikipedia.org/wiki/Regions_of_New_Zealand) t
 
 ### Biogeographic region
 
-The combined IBRA and IMCRA biogeographic regions. This facet is hidden by default, but can be selected under the [Refine results](/using-avh#Refine_results) options. (This data is only available for Australia.)
+The combined IBRA and IMCRA biogeographic regions. This facet is hidden by default, but can be selected under the [Refine results](/using-avh#refine-results) options. (This data is only available for Australia.)
 
 ### Ecoregion
 
@@ -301,7 +301,7 @@ The Australian [Natural Resource Management (NRM) region](http://nrmregionsaustr
 
 ### Duplicates sent to
 
-The herbaria to which duplicates have been sent. Herbaria are identified by their [Index Herbariorum](http://sweetgum.nybg.org/ih/) acronym. When querying this field, note that the specimen records in the results will be from the herbarium that sent the duplicates, not the herbaria that received the duplicates. A potential use case of the Duplicates sent to query term in the [Advanced search](/using-avh#Advanced_search) would be a herbarium trying to find the original records of specimens they have received on exchange from all other Australian herbaria, or, if used in combination with the Herbarium field, from one particular herbarium.
+The herbaria to which duplicates have been sent. Herbaria are identified by their [Index Herbariorum](http://sweetgum.nybg.org/ih/) acronym. When querying this field, note that the specimen records in the results will be from the herbarium that sent the duplicates, not the herbaria that received the duplicates. A potential use case of the Duplicates sent to query term in the [Advanced search](/using-avh#advanced-search) would be a herbarium trying to find the original records of specimens they have received on exchange from all other Australian herbaria, or, if used in combination with the Herbarium field, from one particular herbarium.
 
 ### Herbarium received from
 
@@ -323,7 +323,7 @@ The [Index Herbariorum](http://sweetgum.nybg.org/ih/) acronym of the borrowing i
 
 ### Data issues
 
-When AVH data is uploaded into the BioCache, a range of quality assurance checks are performed and potential data issues are flagged. Some data issues (such as transposed or negated latitude and longitude) will result in the data being modified; other issues will simply be flagged. The details of any changes made during processing can be viewed by clicking on the [Original vs processed](/using-avh#Original_vs_processed) button on the [Record detail](/using-avh#Record_detail) page. Users can also flag potential issues with specimen records by using the [Flag an issue](/using-avh#Flag_an_issue) feature on the [Record detail](/using-avh#Record_detail) page. Data issues detected during processing or flagged by users are available as a facet on the [Results](/using-avh#Results) page, and can be used to narrow down your search results. The data issues are also available on the [Record detail](/using-avh#Record_detail) page and in the  [downloads](/using-avh#Downloads).
+When AVH data is uploaded into the BioCache, a range of quality assurance checks are performed and potential data issues are flagged. Some data issues (such as transposed or negated latitude and longitude) will result in the data being modified; other issues will simply be flagged. The details of any changes made during processing can be viewed by clicking on the [Original vs processed](/using-avh#original-vs-processed) button on the [Record detail](/using-avh#record-detail) page. Users can also flag potential issues with specimen records by using the [Flag an issue](/using-avh#flag-an-issue) feature on the [Record detail](/using-avh#record-detail) page. Data issues detected during processing or flagged by users are available as a facet on the [Results](/using-avh#results) page, and can be used to narrow down your search results. The data issues are also available on the [Record detail](/using-avh#record-detail) page and in the  [downloads](/using-avh#downloads).
 
 ### Spatial validity
 
@@ -333,11 +333,11 @@ An assessment of whether or not the location is spatially valid, based on a rang
 
 Outliers are observations that are distant from the rest of the data in a sample. In the AVH the sample is observations of a taxon. The presence of outliers might indicate that specimens (the outliers) have been incorrectly identified or georeferenced, but also that the distribution is skewed or disjunct, or that the taxon has been under-collected in certain areas. Checks for outliers in the AVH are done using five climate surfaces: precipitation seasonality, precipitation of the driest quarter, radiation seasonality, radiation of the warmest quarter and mean moisture index of the quarter with the highest moisture index. The tests are conducted only where there are 20 or more unique locations for a taxon. For more information on how the tests are done, see the notes on the [spatial outlier detection method](http://code.google.com/p/ala-dataquality/wiki/DETECTED_OUTLIER_JACKKNIFE) used by the ALA.
 
-The Outlier for layer facet indicates if a specimen is an outlier for an environmental layer, based on the known environmental range of the taxon to which the specimen has been identified. The Outlier layer count facet allows you to filter your results for records that are outliers for certain numbers of environmental layers. You can also display your results by Outlier for layer or Outlier layer count on the distribution map. If a record is an outlier for one or more layers, the [Record detail](/using-avh#Record_detail) page will display graphs for each of the variables for which the record is an outlier with the distribution of the records of the taxon to which it belongs. The layers for which a record is an outlier will also be given in the  [downloads](/using-avh#Download).
+The Outlier for layer facet indicates if a specimen is an outlier for an environmental layer, based on the known environmental range of the taxon to which the specimen has been identified. The Outlier layer count facet allows you to filter your results for records that are outliers for certain numbers of environmental layers. You can also display your results by Outlier for layer or Outlier layer count on the distribution map. If a record is an outlier for one or more layers, the [Record detail](/using-avh#record-detail) page will display graphs for each of the variables for which the record is an outlier with the distribution of the records of the taxon to which it belongs. The layers for which a record is an outlier will also be given in the  [downloads](/using-avh#download).
 
 ## Sensitive data
 
-Australia’s Virtual Herbarium contains data that may be considered sensitive because of conservation or biosecurity issues. The [ALA Sensitive Data Service](http://www.ala.org.au/faq/data-sensitivity/) contains authoritative lists of taxa that are considered sensitive, obtained in collaboration with Commonwealth, state and territory agencies and data providers, with information on how data of these taxa should be handled for each state. Distribution data for these sensitive taxa may be either withheld or generalised. The latter means that instead of a detailed locality the local government area will be given and that the latitude and longitude will be rounded to, for example, a single decimal place. Currently, distribution data is only completely withheld for a single native species, the Wollemi Pine (*Wollemia nobilis*). There is a Sensitive data facet that can be used to check for sensitive data among query results. The [Record detail](/using-avh#Record_detail) page and the  [downloads](/using-avh#Download) indicate whether distribution data has been withheld or generalised for each record.
+Australia’s Virtual Herbarium contains data that may be considered sensitive because of conservation or biosecurity issues. The [ALA Sensitive Data Service](http://www.ala.org.au/faq/data-sensitivity/) contains authoritative lists of taxa that are considered sensitive, obtained in collaboration with Commonwealth, state and territory agencies and data providers, with information on how data of these taxa should be handled for each state. Distribution data for these sensitive taxa may be either withheld or generalised. The latter means that instead of a detailed locality the local government area will be given and that the latitude and longitude will be rounded to, for example, a single decimal place. Currently, distribution data is only completely withheld for a single native species, the Wollemi Pine (*Wollemia nobilis*). There is a Sensitive data facet that can be used to check for sensitive data among query results. The [Record detail](/using-avh#record-detail) page and the  [downloads](/using-avh#download) indicate whether distribution data has been withheld or generalised for each record.
 
 ## Multimedia
 

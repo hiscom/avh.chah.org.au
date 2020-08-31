@@ -18,7 +18,7 @@ Information on how the different search options work is provided below. See the 
 
 ### Quick search
 
-The Quick search first attempts to match the search term against a standard list of botanical names and common names. If no matches are found, a match will be attempted against the taxon names provided with the specimen records. If there is still no match, a full text search will be performed against the following fields: [Herbarium name](/data#herbarium), [Herbarium code](/data#herbarium_code), [Catalogue number](/data#catalogue_number), [Collector](/data#collector), [Determiner](/data#determiner) and [Collecting notes](/data#collecting_notes).
+The Quick search first attempts to match the search term against a standard list of botanical names and common names. If no matches are found, a match will be attempted against the taxon names provided with the specimen records. If there is still no match, a full text search will be performed against the following fields: [Herbarium name](/data#herbarium), [Herbarium code](/data#herbarium-code), [Catalogue number](/data#catalogue-number), [Collector](/data#collector), [Determiner](/data#determiner) and [Collecting notes](/data#collecting-notes).
 
 ### Advanced search
 
@@ -26,7 +26,7 @@ The Advanced search allows you to perform a structured query using one or more c
 
 #### Taxon name
 
-The Taxon name search attempts to match the search term against a standard list of botanical names and common names. If no matches are found, a match will be attempted against the taxon names provided with the specimen records ([Taxon name (provided)](/data#taxon_names_in_AVH)). The taxon name search term can be combined with other search terms in the Advanced search.
+The Taxon name search attempts to match the search term against a standard list of botanical names and common names. If no matches are found, a match will be attempted against the taxon names provided with the specimen records ([Taxon name (provided)](/data#taxon-names-in-AVH)). The taxon name search term can be combined with other search terms in the Advanced search.
 
 Taxon names can be botanical names of any rank, or common names. Common names are not provided with the AVH data and are not a reliable means of querying AVH records.
 
@@ -34,7 +34,7 @@ You can enter up to four taxon names in the Advanced search. If you want to quer
 
 #### Full text search
 
-Unlike the other items in the Advanced search tab, Full text search will try to locate the entered string in a number of fields. These include [Herbarium name](/data#herbarium), [Herbarium code](/data#herbarium_code), [Catalogue number](/data#catalogue_number), [Collector](/data#collector), [Determiner](/data#determiner) and [Collecting notes](/data#collecting_notes).
+Unlike the other items in the Advanced search tab, Full text search will try to locate the entered string in a number of fields. These include [Herbarium name](/data#herbarium), [Herbarium code](/data#herbarium-code), [Catalogue number](/data#catalogue-number), [Collector](/data#collector), [Determiner](/data#determiner) and [Collecting notes](/data#collecting-notes).
 
 The Full text search will match the parts of the search string to entire words, but you can add a wildcard (‘\*’) to the last part of the string to match to the start of words. By default, the Full text search will split the search string into its parts and will match to strings where the matched words are separated from each other by text or are in a different order than the parts of the search string. To avoid this behaviour you can enclose the search string in double quotes. Wildcards in quoted strings will be ignored. Individual words in a search string will be matched to pluralised forms of the word. For example, ‘cow’ will return records with ‘cows’ in it.
 
@@ -44,13 +44,13 @@ The Batch name search allows you to perform a query against a list of taxon name
 
 The list of names entered in the Batch name search are matched against the unprocessed taxon names provided with the specimen records (Taxon name (provided)). The Taxon name (provided) for infraspecific taxa may include authors after the species name, and may use inconsistent abbreviations for the infraspecific rank (‘subsp.’, ‘ssp.’ etc.). Because of this, you will get the most predictable results from a batch name search if you don’t include author names or names of infraspecific taxa in your list of taxon names. You can then further refine your results using the facets, or by downloading the data and removing any unwanted records.
 
-Unlike the single taxon name searches, the Batch name search only queries on [Taxon name (provided)](/data#taxon_names_in_AVH) and will not include synonyms in the results. Therefore, for complete results, all known synonyms need to be included in the batch of names.
+Unlike the single taxon name searches, the Batch name search only queries on [Taxon name (provided)](/data#taxon-names-in-AVH) and will not include synonyms in the results. Therefore, for complete results, all known synonyms need to be included in the batch of names.
 
 {% include figure.html src="/media/using-avh/screenshot_batch_name_search.jpg" alt="Batch taxon name search" %}
 
 ### Batch catalogue number search
 
-The Batch catalogue number search allows you to perform a query against a list of catalogue numbers. Each catalogue number needs to be entered on a separate line in the query box. Catalogue numbers must be formatted exactly as they are stored in the AVH; see the [Data page](/data#catalogue_number) for a summary of the catalogue number formats used by different herbaria.
+The Batch catalogue number search allows you to perform a query against a list of catalogue numbers. Each catalogue number needs to be entered on a separate line in the query box. Catalogue numbers must be formatted exactly as they are stored in the AVH; see the [Data page](/data#catalogue-number) for a summary of the catalogue number formats used by different herbaria.
 
 ### Spatial search
 
@@ -177,7 +177,7 @@ In addition to the specimen data from the herbaria, you can view additional poli
 
 ### Data quality tests
 
-When AVH data is uploaded into the ALA BioCache, a range of quality assurance checks are performed and potential data issues are flagged. A summary of the data issues is listed on the Record detail page under the Data quality tests heading. The [Data issues](/data#data_issues) section of the Data page describes the validation issues associated with AVH data.
+When AVH data is uploaded into the ALA BioCache, a range of quality assurance checks are performed and potential data issues are flagged. A summary of the data issues is listed on the Record detail page under the Data quality tests heading. The [Data issues](/data#data-issues) section of the Data page describes the validation issues associated with AVH data.
 
 ### Flag an issue
 
