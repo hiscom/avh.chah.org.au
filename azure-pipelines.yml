@@ -22,6 +22,7 @@ jobs:
           
       - script: |
           cd src
+          mkdir _site
           bundle install
           bundle exec jekyll build
         displayName: 'jekyll build'
