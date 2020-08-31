@@ -23,7 +23,7 @@ jobs:
       - script: |
           cd src
           bundle install
-          jekyll build
+          bundle exec jekyll build
         displayName: 'jekyll build'
           
       - task: CopyFiles@2
