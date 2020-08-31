@@ -21,8 +21,6 @@ jobs:
         displayName: 'install jekyll'
           
       - script: |
-          cd src
-          mkdir _site
           bundle install
           bundle exec jekyll build
         displayName: 'jekyll build'
@@ -30,7 +28,7 @@ jobs:
       - task: CopyFiles@2
         displayName: 'Copy files to staging'
         inputs:
-          SourceFolder: 'src/_site'
+          SourceFolder: '_site'
           TargetFolder: '$(Build.ArtifactStagingDirectory)'
       
       - task: PublishBuildArtifacts@1
