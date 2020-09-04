@@ -33,3 +33,31 @@ The AVH is a dynamic resource. New specimen records are added as herbaria contin
 ## Contributing herbaria
 
 {% include about/contributors.html %}
+
+## Terms of use
+
+The use of the Australasian Virtual Herbarium is subject to the terms of use outlined below. The Australasian Virtual Herbarium forms part of the Atlas of Living Australia (ALA); see the [ALA Terms of Use](https://www.ala.org.au/terms-of-use) for additional information.
+
+### Copyright
+
+With the exception of the AVH logo, the images on the Home page, and where otherwise noted, all material presented on this website is provided under a Creative Commons Attribution 4.0 licence. This allows for re-distribution of the data and any derivative works based on the data, provided that the source of the data is acknowledged.
+
+Content from this website should be attributed as:
+
+> AVH (&lt;current year&gt;). The Australasian Virtual Herbarium, Council of Heads of Australasian Herbaria, &lt;[https://avh.chah.org.au](https://avh.chah.org.au)&gt;, accessed &lt;date of access&gt;.
+
+### Disclaimer
+
+The Australasian Virtual Herbarium (AVH) data is supplied as is. No warranty, express or implied, is made concerning the accuracy or fitness for a particular purpose of the data. The user shall use AVH at their own risk. The Council of Heads of Australasian Herbaria Inc. (CHAH) will not be liable for any loss or damage arising from the use of or reliance upon the data, or reliance on its availability at any time.
+
+The views, opinions, findings and recommendations expressed on this service are those of the author(s) and data custodian(s) and do not necessarily reflect the views of the Australian Commonwealth Government, any Australian state or territory government, any Australian regional government or any other Australian government agency.
+
+Reference on this service to any specific commercial products, process or service by trade name, trademark, manufacturer or otherwise, does not necessarily constitute or imply its endorsement, recommendation or favouring by CHAH or any Australian Government agency, and shall not be used for advertising or product endorsement purposes.
+
+### Privacy
+
+Information from this service resides on a computer system funded by the Commonwealth, state and territory governments of Australia. The Australasian Virtual Herbarium uses [Google Analytics](https://marketingplatform.google.com/about/) to monitor site usage for statistical purposes. The information logged may include: the user’s Internet protocol (IP) address and top level domain name, the date and time the site was visited, the pages accessed, the queries performed and data downloaded, the previous site visited and the browser used. Any unauthorised access to this system is prohibited and is subject to various Australian criminal and civil laws.
+
+In order to use certain features available on the AVH website, you must register as a user with the Atlas of Living Australia (ALA). When registering, a genuine e-mail address must be provided.
+
+In some cases, you may be asked to provide your real name or other identifying or contact details – such personal information will be managed in accordance with the [ALA Privacy Policy](https://www.ala.org.au/terms-of-use/privacy-policy/).
