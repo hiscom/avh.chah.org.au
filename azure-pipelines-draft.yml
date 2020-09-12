@@ -3,7 +3,7 @@ name: $(Build.BuildId)
 trigger:
   branches:
     include: 
-      - development
+      - drafts
 
 pool:
   vmImage: 'Ubuntu-16.04'
