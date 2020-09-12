@@ -1,5 +1,5 @@
 {% for category in post.categories %}
 {% if forloop.first %}<span aria-hidden="true"><i class="fas fa-tag"></i></span>{% endif %}
-<a href="/categories#{{ category | slugify }}">{{ category }}</a>{% 
+<a href="{{ '/categories' | relative_url }}#{{ category | slugify }}">{{ category }}</a>{% 
   if forloop.last %}{% else %}, {% endif %}
 {% endfor %}
