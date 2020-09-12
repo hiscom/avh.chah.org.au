@@ -1,1 +1,1 @@
-Sitemap: http://https//hiscom.github.io:4000/avh.chah.org.au/sitemap.xml
+Sitemap: https//avh.chah.org.au/sitemap.xml
