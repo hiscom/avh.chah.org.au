@@ -35,12 +35,7 @@ steps:
 - task: UseRubyVersion@0
   displayName: '[Ruby] Use Ruby >= 2.5'
 
-# 3. Build Site - We only want a HTML diff on master, so we follow this process
-#      1. Copy files from development branch to /tmp/source
-#      2. Build Jekyll on /tmp/source to /tmp/build
-#      3. Remove all files in $(Build.StagingDirectory) except .git/
-#      4. Copy everything from /tmp/build to $(Build.StagingDirectory)/
-#      5. Create the commit and push it
+# 3. Build Site
 - script: 'git checkout drafts'
   workingDirectory: $(Build.StagingDirectory)
   displayName: '[Git] Switch to drafts branch for $(Build.StagingDirectory)'
