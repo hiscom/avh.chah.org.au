@@ -63,7 +63,7 @@ steps:
 
 - script: |
     mkdir /tmp/build;
-    bundle exec jekyll build -d /tmp/build;
+    bundle exec jekyll build -d /tmp/build -b "/avh.chah.org.au";
   workingDirectory: /tmp/source
   displayName: '[Jekyll] Build Jekyll Static Site from /tmp/source to /tmp/build'
 
