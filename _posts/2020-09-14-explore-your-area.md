@@ -34,7 +34,7 @@ bryophytes.
 {% include figure.html 
     src="/media/2020/09/12/explore-your-area-2.jpg"
     alt="Explore your area: 3004, bryophytes"
-    caption="Explore your area for postcode 3004, narrowed down to show just the bryophytes."
+    caption="Explore your area for postcode 3004, narrowed down to show just bryophyte occurrences."
     href="https://avh.ala.org.au/explore/your-area#-37.8302|144.9805|12|Bryophytes"
 %}
 
@@ -52,9 +52,9 @@ Clicking on the 'list of records' link will take you to the search result page i
 just as if you have done any other search. The 'View selected records' button 
 just above the pane will take you to the search result of any selection you made, 
 so you can make use of the facets available there and explore further. Before you 
-have selected any taxa, you can also click 'View all records' and get all AVH 
-records for the area. The 'Download' button will take you directly to the 
-download page for your search result.
+have selected any taxa, this same button will be called 'View all records' and 
+get you to all AVH records for the area. The 'Download' button will take you 
+directly to the download page for your search result.
 
 {% include figure.html 
     src="/media/2020/09/14/explore-your-area-6.jpg"
@@ -79,7 +79,7 @@ new tab, which will make it easier to get back to your Explore your area result.
 {% include figure.html 
     src="/media/2020/09/12/explore-your-area-4.jpg"
     alt="Explore your area: 3004, map, info window"
-    caption="Clicking on the map will bring up an info window with basic 
+    caption="Clicking on a dot on the map will bring up an info window with basic 
     information about the record."
 %}
 
