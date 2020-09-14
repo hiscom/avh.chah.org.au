@@ -12,7 +12,7 @@ The 'Eplore your area' functionality has been available in the ALA for years,
 but I for one never knew it was available in AVH as well.
 
 'Explore your area' is available in AVH at 
-[https://avh.ala.or.au/explore/your-area](https://avh.ala.or.au/explore/your-area). 
+[https://avh.ala.org.au/explore/your-area](https://avh.ala.or.au/explore/your-area). 
 When you first enter the page, you will be asked if the page is allowed to use your 
 location, as by default the location where you are is used, but you can also 
 type in a street address, postcode or latitude and longitude.
