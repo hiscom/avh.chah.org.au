@@ -83,6 +83,8 @@ new tab, which will make it easier to get back to your Explore your area result.
     information about the record."
 %}
 
+Some more information about 'Explore your area' can be found in the ALA 
+[support article](https://support.ala.org.au/support/solutions/articles/6000195203-how-to-find-the-species-recorded-in-your-area).
 
 
 
