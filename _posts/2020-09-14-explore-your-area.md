@@ -12,7 +12,7 @@ The 'Eplore your area' functionality has been available in the ALA for years,
 but I for one never knew it was available in AVH as well.
 
 'Explore your area' is available in AVH at 
-[https://avh.ala.org.au/explore/your-area](https://avh.ala.or.au/explore/your-area). 
+[https://avh.ala.org.au/explore/your-area](https://avh.ala.org.au/explore/your-area). 
 When you first enter the page, you will be asked if the page is allowed to use your 
 location, as by default the location where you are is used, but you can also 
 type in a street address, postcode or latitude and longitude.
@@ -50,9 +50,20 @@ the species profile and list of records.
 
 Clicking on the 'list of records' link will take you to the search result page in AVH, 
 just as if you have done any other search. The 'View selected records' button 
-just above the pane will take you to te search result of any selection you made. 
-The 'Download' button will take you directly to the download page for your search 
+just above the pane will take you to te search result of any selection you made, 
+so you can make use of the facets available there and explore further. You can 
+also click on 'View selected records' without having selected taxa, if you are 
+only interested in the area, so you get all AVH records for the area. The 
+'Download' button will take you directly to the download page for your search 
 result.
+
+{% include figure.html 
+    src="/media/2020/09/14/explore-your-area-6.jpg"
+    alt="Explore your area: 3004, after clicking 'view selected record'"
+    caption="Clicking on 'View selected records' will take you to the occurrence 
+    search where you can explore further."
+    href="https://avh.ala.org.au/occurrences/search?q=*%3A*&lat=-37.8302&lon=144.9805&radius=5&fq=geospatial_kosher%3Atrue&fq=species_group%3ABryophytes#tab_mapView"
+%}
 
 In the map pane, you can do most of the things you can do in the map for the 
 occurrence search. Additionally, you can drag the icon in the centre of the 
