@@ -10,7 +10,7 @@ trigger:
 jobs:
   - job: build
     pool:
-      vmImage: 'ubuntu-16.04'
+      vmImage: 'ubuntu-20.04'
     steps:
       - task: UseRubyVersion@0
         inputs:
@@ -39,7 +39,7 @@ jobs:
     
   - job: deploy
     pool:
-      vmImage: 'ubuntu-16.04'
+      vmImage: 'ubuntu-20.04'
     dependsOn: build
     condition: succeeded()
     steps:
