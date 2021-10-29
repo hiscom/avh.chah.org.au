@@ -86,7 +86,7 @@ jobs:
               --resource-group SC-CHAH \
               --content-paths '/*'
 
-  - job: gh-pages
+  - job: drafts_to_gh_pages
     condition: eq(variables['Build.SourceBranch'], 'refs/heads/master')
     steps:
       - checkout: none 
