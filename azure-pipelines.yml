@@ -18,6 +18,7 @@ variables:
 
 jobs:
   - job: build
+    condition: eq(variables['Build.SourceBranch'], 'refs/heads/master')
     pool:
       vmImage: 'ubuntu-20.04'
     steps:
@@ -45,7 +46,6 @@ jobs:
         inputs:
           pathtoPublish: '$(Build.ArtifactStagingDirectory)'
           artifactName: site
-    condition: eq(variables['Build.SourceBranch'], 'refs/heads/master')
     
   - job: deploy
     pool:
@@ -85,9 +85,9 @@ jobs:
               --profile-name cdn-chah \
               --resource-group SC-CHAH \
               --content-paths '/*'
-    condition: eq(variables['Build.SourceBranch'], 'refs/heads/master')
 
   - job: gh-pages
+    condition: eq(variables['Build.SourceBranch'], 'refs/heads/master')
     steps:
       - checkout: none 
         persistCredentials: false 
@@ -166,5 +166,3 @@ jobs:
           -H "Accept: application/vnd.github.mister-fantastic-preview+json" \
           -H "Authorization: Basic $(gh_auth_header)"
         displayName: '[GitHub] Get Page Build Status'
-
-    condition: eq(variables['Build.SourceBranch'], 'refs/heads/master')
