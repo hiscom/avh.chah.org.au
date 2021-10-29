@@ -33,7 +33,7 @@ steps:
 
 # 2. Configure Ruby
 - task: UseRubyVersion@0
-  displayName: '[Ruby] Use Ruby >= 2.5'
+  displayName: '[Ruby] Use Ruby >= 3.0'
 
 # 3. Build Site
 - script: 'git checkout drafts'
