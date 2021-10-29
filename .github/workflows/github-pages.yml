@@ -23,7 +23,7 @@ jobs:
           bundler-cache: true
 
       - name: Build 🏗
-        run: bundle exec jekyll build --trace --baseurl "/avh.chah.org.au"
+        run: bundle exec jekyll build --baseurl /avh.chah.org.au
 
       - name: Deploy to GH Pages 🚀
         if: ${{ github.event_name != 'pull_request' }}
