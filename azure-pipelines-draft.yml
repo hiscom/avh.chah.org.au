@@ -34,7 +34,7 @@ steps:
 # 2. Configure Ruby
 - task: UseRubyVersion@0
   inputs:
-    versionSpec: '>= 2.5'
+    versionSpec: '>= 2.2'
   displayName: '[Ruby] Use Ruby >= 2.2'
 
 # 3. Build Site
