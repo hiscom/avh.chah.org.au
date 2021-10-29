@@ -34,8 +34,8 @@ steps:
 # 2. Configure Ruby
 - task: UseRubyVersion@0
   inputs:
-    versionSpec: '>= 2.2'
-  displayName: '[Ruby] Use Ruby >= 2.2'
+    versionSpec: '>= 2.7'
+  displayName: '[Ruby] Use Ruby >= 2.7'
 
 # 3. Build Site
 - script: 'git checkout drafts'
