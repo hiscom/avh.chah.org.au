@@ -26,7 +26,6 @@ jobs:
         run: bundle exec jekyll build --baseurl /avh.chah.org.au
 
       - name: Deploy to GH Pages 🚀
-        if: ${{ github.event_name != 'pull_request' }}
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.MY_GITHUB_TOKEN }}
