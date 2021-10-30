@@ -2,7 +2,6 @@ trigger:
   branches:
     include:
       - master
-      - drafts
   paths:
     exclude:
       - src/_drafts
