@@ -26,7 +26,7 @@ selecting a Data Quality Profile from the drop-down.
 %}
 
 We have created an AVH Data Quality Profile, based on the ALA General Profile,
-which excludes some filters that are not as relevant to AVH data and includes
+which removes some filters that are not as relevant to AVH data and includes
 extra filters on uncertain identifications and cultivated occurrences that are
 especially relevant to AVH users.
 
@@ -42,11 +42,11 @@ of the coordinate uncertainty (> 10,000 m), but also a fair amount because of
 issues with the scientific name, uncertain identifications and cultivated
 occurrences.
 
-One of the nice things about the DQ filters is that you can also see the the
-records that have been excluded from the search result by a certain filter by
-following the link under the number of records excluded by that filter. So,
-users can see if records have been excluded that they do not want to exclude,
-in which case they can fine-tune the filters.
+One of the nice things about the DQ filters is that you can also see the records
+that have been excluded from the search result by a certain filter by following
+the link under the number of records excluded by that filter. So, users can see
+if records have been excluded that they do not want to exclude, in which case
+they can fine-tune the filters.
 
 Disabling and enabling individual filter categories within a profile can be done
 by clicking the check boxes in front of the label. The same can be done in the
@@ -87,6 +87,17 @@ quality tests. The pages for the data quality tests contain information for
 end users as what failing the test means for their data, as well as
 recommendations for curators of data on how to improve their data (if any
 action is recommended at all).
+
+If you want the search page to always open with a certain profile, you can
+change the default profile in the 'Data profile user settings' dialogue
+that opens when you hit the 'Settings' link at the top right of the 'Data
+Profile' box.
+
+{% include figure.html
+    src="/media/2021/10/30/dq-filters-6.jpg"
+    alt="Data profile user settings dialogue"
+    caption="Data profile user settings dialogue."
+%}
 
 There is more to come from the ALA Data Quality project. The next stage, which
 will look into annotations and expert species distributions, is about to kick
