@@ -24,14 +24,14 @@ layout: default
               {% if page.categories %}
               {% for category in page.categories %}
               {% if forloop.first %}<span aria-hidden="true"><i class="fas fa-tag"></i></span>{% endif %}
-              <a href="/categories.html#{{ category | slugify | relative_url }}">{{ category }}</a>{%
+              <a href="{{ '/categories.html' | relative_url }}#{{ category | slugify }}">{{ category }}</a>{%
               if forloop.last %}{% else %}, {% endif %}
               {% endfor %}
               {% endif %}
               {% if page.tags %}
               {% for tag in page.tags %}
               {% if forloop.first %}<span aria-hidden="true"><i class="fas fa-tag"></i></span>{% endif %}
-              <a href="/tags.html#{{ tag | slugify | relative_url }}">{{ tag }}</a>{%
+              <a href="{{ '/tags.html' | relative_url }}#{{ tag | slugify }}">{{ tag }}</a>{%
               if forloop.last %}{% else %}, {% endif %}
               {% endfor %}
               {% endif %}
