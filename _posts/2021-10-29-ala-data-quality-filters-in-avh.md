@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ALA data quality filters in AVH"
+title: "ALA Data Quality filters in AVH"
 categories:
   - News
   - Feature
